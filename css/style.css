@@ -1,12 +1,13 @@
-container{
+container {
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
   background-color: #f5f5f5;
-  
+
 }
+
 /* HEADER */
-header{
+header {
   max-width: inherit;
   width: inherit;
   padding: 51px 320px 50px 320px;
@@ -21,38 +22,75 @@ header{
   z-index: 2;
   border: 2px solid red;
 }
- ul{
+
+ul {
   display: flex;
   font-size: 24px;
- gap: 68px;
- margin-right: 780px;
- }
- a{
+  gap: 68px;
+  margin-right: 780px;
+}
+a {
   color: #FFFFFF;
- }
- /* SectionOne */
- .Section_one{
+}
+
+/* SectionOne */
+.Section_one {
   border: 4px solid blue;
   width: 100%;
   height: 1080px;
-  position: relative; 
- }
- .Section_info{
+  position: relative;
+}
+
+.Section_info {
   font-size: 82px;
   color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
- transform: translate(-50%, -50%);
- }
- .section_img{
+  transform: translate(-50%, -50%);
+}
+
+.section_img {
   width: 100%;
-  height: 100%;}
-.Section_info2{
-  font-size: 82px;
+  height: 100%;
+}
+
+.Section_info2 {
+  width: 583px;
+  height: 60px;
+  font-size: 24px;
   color: #fff;
   position: absolute;
-  top: 40%;
-  left: 40%;
- transform: translate(-40%, -40%);
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Sect_search {
+  width: 463px;
+  height: 72px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  background-color: gray;
+}
+
+.Search_text {
+  display: flex;
+  margin-top: 24px;
+  color: white;
+  font-size: 20px;
+}
+
+.Search_logo {
+  margin-top: 22px;
+  margin-right: 20px;
+  width: 17px;
+  height: 17px;
+  background-color: #525A55;
 }
