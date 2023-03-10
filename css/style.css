@@ -20,7 +20,6 @@ header {
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
-  border: 2px solid red;
 }
 
 ul {
@@ -29,13 +28,13 @@ ul {
   gap: 68px;
   margin-right: 780px;
 }
+
 a {
   color: #FFFFFF;
 }
 
 /* SectionOne */
 .Section_one {
-  border: 4px solid blue;
   width: 100%;
   height: 1080px;
   position: relative;
@@ -92,31 +91,102 @@ a {
   border-radius: 20px;
   background-color: blue;
 }
+
 /* SectionTwo */
-.Section_Two{
+.Section_Two {
   width: 80%;
-  margin: auto;}
-h1{
+  margin: auto;
+}
+
+h1 {
   margin-left: 260px;
   font-size: 75px;
   padding-top: 250px;
   color: #081323;
 }
-.Fig_cards{
+
+.Fig_cards {
   display: flex;
-  justify-content: space-evenly;}
-figure{
+  justify-content: space-evenly;
+
+}
+
+figure {
+
   width: 390px;
   height: 388px;
   margin-top: 80px;
   border: 2px solid #DCB47A;
   padding: 30px 41px 30px 41px;
 }
-figcaption{
+
+figcaption {
   font-size: 16px;
-padding-top: 51px;
- 
+  padding-top: 51px;
 }
-.Price_Text{
+
+.lil_logo {
+  padding-left: 190px;
+}
+
+.Price_Text {
   font-size: 16px;
+}
+
+/* SectionThre */
+
+.Section_Thre {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 250px;
+  margin-left: 322px;
+  font-size: 64px;
+  color: #081323;
+}
+
+.img_endline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+/* FooterStart */
+footer {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 71px 545px 76px 545px;
+  background-color: #262626;
+}
+
+.Footer_h3 {
+  font-size: 62px;
+  color: #DCB47A;
+}
+
+.Footer_P {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.footer_bott {
+  background-color: #DCB47A;
+}
+
+.footer_klick {
+  font-size: 16px;
+  padding-top: 20px;
+  padding-left: 70px;
+  width: 205px;
+  height: 64px;
+  margin-left: 50px;
+  border-radius: 50px;
+  background-color: #DCB47A;
 }
